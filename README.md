@@ -5,10 +5,11 @@
 ## Setup
 
 - Node.js 및 [MongoDB 설치](https://docs.mongodb.com/manual/installation/)는 설치되어 있어야 합니다.
+  - MongoDB의 경우 Docker를 사용하는 것을 추천합니다(`docker run --name mongodb-db -d -p 27017:27017 mongo`).
 
 ```
 $ npm install
 $ npm run data:import
-$ npm run server
-$ npm run client
+$ npm run dev:server
+$ npm run dev:client
 ```
